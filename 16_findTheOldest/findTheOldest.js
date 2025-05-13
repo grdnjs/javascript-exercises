@@ -9,7 +9,6 @@ const findTheOldest = function(people) {
         if (age > oldest) {
             oldest = age;
             oldestPerson  = person;
-            console.log(`Oldest: ${oldestPerson}`)
         }
     }
     return oldestPerson;
